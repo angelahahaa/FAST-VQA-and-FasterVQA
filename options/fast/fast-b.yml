@@ -1,11 +1,11 @@
-name: FAST-VQA-B-Refactor-1*4
+name: FAST-VQA-B-Refactor-1-4
 num_epochs: 30
 l_num_epochs: 0
 warmup_epochs: 2.5
 ema: true
 save_model: true
 batch_size: 16
-num_workers: 6
+num_workers: 6FAST-VQA-B-Refactor-1-4
 
 wandb:
     project_name: VQA_Experiments_2022
@@ -120,4 +120,4 @@ optimizer:
     wd: 0.05
         
 load_path: ../pretrained/swin_tiny_patch244_window877_kinetics400_1k.pth
-test_load_path: ./pretrained_weights/FAST_VQA_B_1*4.pth
+test_load_path: ./pretrained_weights/FAST_VQA_B_1_4.pth
